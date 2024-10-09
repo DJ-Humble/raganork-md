@@ -22,7 +22,7 @@ const settingsMenu = [
   ]
 DATABASE_URL = process.env.DATABASE_URL === undefined ? './bot.db' : process.env.DATABASE_URL;
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
-SESSION_ID: process.env.SESSION_ID || "tDMkCDbZ#DOd0gjqUqfVQqjkeF7fvleKPpcqISt7-5S2oCgq_4UQ",
+SESSION_ID: process.env.SESSION_ID || "Raganork~5aa1eff2e5c52cb8151c37571c9e2d12:2f3354514f4c4d687463453d",
 module.exports = {
     VERSION: 'v4.0.0',
     ALIVE: process.env.ALIVE || "https://i.imgur.com/KCnoMM2.jpg Hey {sender}, I'm alive \n Uptime: {uptime}",
